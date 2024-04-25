@@ -40,13 +40,35 @@ body {
     height: var(--height-img-header);
 }
 
-.information__values{
+.information__values {
     display: flex;
     gap: 50px;
 }
-.values{
+
+.values__assets,
+.values__savings {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.values__savings h3,
+.values__assets h3 {
+    font-family: 'SF-Pro-Text-Regular', sans-serif;
+    color: var(--color-4);
+    font-size: 1rem;
+}
+
+.values__savings span,
+.values__assets span {
+    display: flex;
+    align-items: baseline;
+    font-family: 'Roboto-Bold', sans-serif;
+    color: var(--color-4);
+    font-size: 1.7rem;
+}
+
 .progress-container {
     width: 100%;
     height: 12px;
@@ -64,17 +86,21 @@ body {
 .values__assets .progress-bar {
     background-color: var(--color-3);
 }
-.information__welcome{
+
+.information__welcome {
     margin-bottom: 40px;
 }
-.information__welcome h2, .information__welcome p{
+
+.information__welcome h2,
+.information__welcome p {
     color: var(--color-4);
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
-.information__welcome h2{
+.information__welcome h2 {
     font-family: 'SF-Pro-Text-Heavy';
 }
-.information__welcome p{
+
+.information__welcome p {
     font-family: 'SF-Pro-Text-Light';
 }
