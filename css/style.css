@@ -14,7 +14,6 @@ body {
 }
 
 .header,
-.main,
 .footer {
     padding: var(--space-layout-padding-lr);
 }
@@ -28,6 +27,12 @@ body {
     height: 60px;
 }
 
+h1{
+    font-family: 'SF-Pro-Text-Bold',sans-serif;
+    color: var(--color-4);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
 .header__logo {
     display: flex;
     align-items: center;
@@ -87,6 +92,10 @@ body {
     background-color: var(--color-3);
 }
 
+.account__information{
+    padding: var(--space-layout-padding-lr);
+}
+
 .information__welcome {
     margin-bottom: 40px;
 }
@@ -103,4 +112,54 @@ body {
 
 .information__welcome p {
     font-family: 'SF-Pro-Text-Light';
+}
+
+.transactions__information{
+    padding: var(--space-layout-padding-lr);
+}
+
+.transactions__information {
+    background-color: var(--color-4);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.activities__nav h2{
+    font-family: 'SF-Pro-Text-Bold';
+    padding-top: 40px;
+    color: var(--color-1);
+}
+
+.nav__ul {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+
+.nav__ul li {
+    list-style: none;
+}
+
+.nav__ul li a {
+    width: 100px;
+    height: 140px;
+    font-family: "EncodeSans-Medium";
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+    color: var(--color-1);
+    background: var(--color-5);
+    box-shadow: 0 0 15px #323f4e26;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'SF-Pro-Text-Semibold', sans-serif;
+    justify-content: center;
+}
+.nav__ul li a img{
+    margin-bottom: 10px;
 }
