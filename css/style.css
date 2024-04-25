@@ -1,2 +1,42 @@
 @import url(variables.css);
 @import url(fonts.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "EncodeSans-Regular";
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-1);
+    background-image: url(../storage/img/bgAccount.svg);
+}
+
+.header,
+.main,
+.footer {
+    padding: var(--space-layout-padding-lr);
+}
+
+.header {
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header__logo img,
+.header__menu img {
+    width: var(--width-img-header);
+    height: var(--height-img-header);
+}
+

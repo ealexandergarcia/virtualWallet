@@ -2,5 +2,15 @@
     --color-1: #33404F;
     --color-2: #00DDA3;
     --color-3: #B5C5C3;
+    --color-4: #FFFFFF;
+    --space-layout-padding-lr: 0 20px;
+    --width-img-header: 35px;
+    --height-img-header: 35px;
 }
 
+
+h1{
+    font-family: 'SF-Pro-Text-Bold',sans-serif;
+    color: var(--color-4);
+    font-size: 1.2rem;
+}
