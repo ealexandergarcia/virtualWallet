@@ -1,0 +1,13 @@
+<svg width="210" height="132" viewBox="0 0 210 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 12C1 6.47715 5.47715 2 11 2H188C193.523 2 198 6.47715 198 12V110C198 115.523 193.523 120 188 120H11C5.47715 120 1 115.523 1 110V12Z" fill="#00DDA3"/>
+<rect x="1" y="22" width="197" height="22" fill="white"/>
+<rect x="1.5" y="1.5" width="197" height="117" rx="8.5" stroke="#33404F" stroke-width="3"/>
+<path d="M208 24V120C208 125.523 203.523 130 198 130H15" stroke="#33404F" stroke-width="3" stroke-linecap="round"/>
+<path d="M2 22L40 22" stroke="#33404F" stroke-width="3" stroke-linecap="round"/>
+<path d="M63 22L198 22" stroke="#33404F" stroke-width="3" stroke-linecap="round"/>
+<path d="M1 44L200 44" stroke="#33404F" stroke-width="3"/>
+<rect x="13" y="88" width="50" height="8" fill="white"/>
+<rect x="13" y="100" width="86" height="8" fill="white"/>
+<circle cx="176" cy="98" r="10" fill="#33404F"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M169.951 107.189C166.968 105.222 165 101.841 165 98C165 94.1593 166.968 90.7784 169.951 88.8109C168.739 88.2891 167.403 88 166 88C160.477 88 156 92.4772 156 98C156 103.523 160.477 108 166 108C167.403 108 168.739 107.711 169.951 107.189Z" fill="#33404F"/>
+</svg>
