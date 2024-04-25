@@ -94,6 +94,7 @@ h1{
 
 .account__information{
     padding: var(--space-layout-padding-lr);
+    margin-bottom: 40px;
 }
 
 .information__welcome {
@@ -123,7 +124,7 @@ h1{
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
-.activities__nav h2{
+.activities__nav h2, .information__transactions h2 {
     font-family: 'SF-Pro-Text-Bold';
     padding-top: 40px;
     color: var(--color-1);
@@ -162,4 +163,32 @@ h1{
 }
 .nav__ul li a img{
     margin-bottom: 10px;
+}
+
+.content__card{
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card__text{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+.text__info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text__info h3{
+    font-family: 'SF-Pro-Text-Bold',sans-serif;
+    font-size: 1rem;
+}
+.text__info p{
+    font-family: 'SF-Pro-Text-Medium',sans-serif;
+    font-size: 0.8rem;
+    color: var(--color-3);
+    font-weight: lighter;
 }
