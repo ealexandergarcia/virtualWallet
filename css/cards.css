@@ -7,15 +7,19 @@
     font-family: "EncodeSans-Regular";
     box-sizing: border-box;
 }
-
+.my-cards{
+    height: 400px;
+}
 body {
     background-color: var(--color-4);
 }
 
 main {
-    padding-bottom: 70px;
     padding: var(--space-layout-padding-lr);
     /* altura del footer */
+}
+.main{
+    padding-bottom: 70px;
 }
 
 .header {
@@ -48,7 +52,7 @@ main {
 
 .investing-tips__title{
     font-family: 'SF-Pro-Text-Bold';
-    padding: 40px 0;
+    padding: 30px 0 20px 0;
     color: var(--color-1);
 }
 .investing-tips__item{
@@ -61,8 +65,8 @@ main {
 .investing-tips__item-image{
     width: 40%;
     background-color: var(--color-5);
-    border-top-right-radius: 60px;
-    border-bottom-right-radius: 60px;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
     padding: 20px 20px 20px 0;
     overflow: visible;
     border-top-left-radius: 30px;
@@ -100,6 +104,45 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.activities__nav{
+    height: 350px;
+}
+.nav__ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+
+.nav__ul li {
+    list-style: none;
+}
+
+.nav__ul li a {
+    width: 200px;
+    height: 100%;
+    font-family: "EncodeSans-Medium";
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+    color: var(--color-1);
+    background: var(--color-5);
+    box-shadow: 0 0 15px #323f4e26;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'SF-Pro-Text-Semibold', sans-serif;
+    justify-content: center;
+}
+.nav__ul li a img{
+    margin-bottom: 10px;
+    width: 100%;
 }
 .footer {
     /* background: red; */
