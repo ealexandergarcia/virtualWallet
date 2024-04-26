@@ -28,12 +28,6 @@ main {
     height: 60px;
 }
 
-h1{
-    font-family: 'SF-Pro-Text-Bold',sans-serif;
-    color: var(--color-4);
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-}
 .header__logo {
     display: flex;
     align-items: center;
