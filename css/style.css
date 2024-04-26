@@ -61,12 +61,18 @@ main {
 }
 
 .values__savings span,
-.values__assets span {
+.values__assets span{
     display: flex;
     align-items: baseline;
     font-family: 'Roboto-Bold', sans-serif;
     color: var(--color-4);
     font-size: 1.7rem;
+}
+.values__savings span sub,
+.values__assets span sub{
+    font-family: 'Roboto-Bold', sans-serif;
+    color: var(--color-4);
+    font-size: 1rem;
 }
 
 .progress-container {
