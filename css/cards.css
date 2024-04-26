@@ -14,6 +14,7 @@ body {
 
 main {
     padding-bottom: 70px;
+    padding: var(--space-layout-padding-lr);
     /* altura del footer */
 }
 
@@ -31,6 +32,7 @@ main {
 }
 
 .header__logo {
+    width: 60%;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -44,6 +46,61 @@ main {
     height: var(--height-img-header);
 }
 
+.investing-tips__title{
+    font-family: 'SF-Pro-Text-Bold';
+    padding: 40px 0;
+    color: var(--color-1);
+}
+.investing-tips__item{
+    display: flex;
+    box-shadow: 0 0 20px #323f4e26;
+    border-radius: 30px;
+    align-items: center;
+    gap: 25px;
+}
+.investing-tips__item-image{
+    width: 40%;
+    background-color: var(--color-5);
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 20px 20px 20px 0;
+    overflow: visible;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.investing-tips__item-image img {
+    width: 100%;
+}
+.investing-tips__item-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.investing-tips__item-title{
+    font-family: 'SF-Pro-Text-Bold';
+    color: var(--color-1);
+    font-size: 1.3rem;
+}
+
+.investing-tips__item-author{
+    font-family: 'SF-Pro-Text-Regular',sans-serif;
+    font-size: 0.9rem;
+    color: var(--color-3);
+}
+
+.investing-tips__item-link{
+    background: var(--color-2);
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    font-family: 'SF-Pro-Text-Bold';
+    font-size: 0.8rem;
+    color: var(--color-4);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .footer {
     /* background: red; */
     position: fixed;
