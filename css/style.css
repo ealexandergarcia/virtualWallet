@@ -12,9 +12,10 @@ body {
     background-color: var(--color-1);
     background-image: url(../storage/img/bgAccount.svg);
 }
-
-.header,
-.footer {
+main {
+    padding-bottom: 70px; /* altura del footer */
+  }
+.header {
     padding: var(--space-layout-padding-lr);
 }
 
@@ -116,7 +117,7 @@ h1{
 }
 
 .transactions__information{
-    padding: var(--space-layout-padding-lr);
+    padding: var(--space-layout-padding-lr); 
 }
 
 .transactions__information {
@@ -129,7 +130,10 @@ h1{
     padding-top: 40px;
     color: var(--color-1);
 }
-
+.information__transactions{
+    max-height: 400px;
+    overflow: scroll;
+}
 .nav__ul {
     padding: 15px 15px;
     display: flex;
@@ -191,4 +195,34 @@ h1{
     font-size: 0.8rem;
     color: var(--color-3);
     font-weight: lighter;
+}
+.footer{
+    /* background: red; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer__ul{
+    background: var(--color-1);
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer__ul li{
+    list-style: none;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
+    width: 35px;
 }
