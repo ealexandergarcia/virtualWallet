@@ -27,7 +27,50 @@ main {
     align-items: center;
     height: 60px;
 }
+.balance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 100px;
+    background: var(--color-2);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.balance h2{
+    font-family: 'SF-Pro-Text-Bold',sans-serif;
+    color: var(--color-4);
+    font-size: 1.8rem;
+    text-align: center;
+}
 
+.balance span{
+    display: flex;
+    align-items: baseline;
+    font-family: 'SF-Pro-Text-Bold',sans-serif;
+    color: var(--color-4);
+    font-size: 1.6rem;
+}
+.balance span sub{
+    font-family: 'SF-Pro-Text-Bold',sans-serif;
+    color: var(--color-4);
+    font-size: 1rem;
+}
+
+.graphics__buttons{
+    display: flex;
+    background: white;
+    gap: 25px;
+    justify-content: space-around;
+}
+.graphics__buttons a{
+    width: 80px;
+    height: 25px;
+    background: red;
+    text-decoration: none;
+    
+}
 .header__logo {
     display: flex;
     align-items: center;
