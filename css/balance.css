@@ -155,6 +155,9 @@ main {
   text-decoration: none;
   color: var(--color-1);
 }
+.banner__content{
+  display: flex;
+}
 .footer {
   /* background: red; */
   position: fixed;
