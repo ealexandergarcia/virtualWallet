@@ -152,7 +152,6 @@ main {
     padding: 5px;
     border-radius: 15px;
     color: var(--color-1);
-    background: var(--color-5);
     box-shadow: 0 0 15px #323f4e26;
     flex-direction: column;
     justify-content: center;
