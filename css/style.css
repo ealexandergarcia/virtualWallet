@@ -271,6 +271,9 @@ main {
 }
 
 @media only screen and (min-width: 769px) {
+  main{
+    padding: 0;
+  }
   .footer {
     display: none;
   }

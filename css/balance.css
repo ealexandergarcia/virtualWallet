@@ -66,6 +66,10 @@ main {
   font-size: 1rem;
   transition: all 0.5s ease;
 }
+
+.mega__menuD a:hover {
+  color: var(--color-2);
+}
 .balance {
   position: relative;
   display: flex;
@@ -261,6 +265,18 @@ main {
     background: linear-gradient(var(--color-1), var(--color-2));
   }
   main{
+    margin: 0 30px;
+    padding: 30px 0 0 0;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 40px;
+  }
+  .banner__info{
+    width: 100%;
+  }
+  .graphics{
     padding: 0;
   }
   .graphics__buttons {
