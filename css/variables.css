@@ -5,6 +5,7 @@
     --color-4: #FFFFFF;
     --color-5: #E1FFEF;
     --space-layout-padding-lr: 0 20px;
+    --space-layout-padding-xy: 30px 20px;
     --width-img-header: 35px;
     --height-img-header: 35px;
 }
