@@ -1,248 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Virtual Wallet</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__logo">
-            <img src="storage/img/logo.svg" alt="">
-            <h1>INVETO</h1>
-        </div>
-        <div class="header__menu">
-            <div id="divaa2">
-                <img id="img3" src="storage/img/menuLinesWhite.svg">
-                <a id="btnb1" href=""> <img src="storage/img/fMenu.svg" alt=""></a>
-                <a id="btnb2" href=""> <img src="storage/img/fContent.svg" alt=""></a>
-              </div>
-        </div>
+      <div class="header__logo">
+        <img src="../storage/img/logo.svg" alt="" />
+        <h1>INVETO</h1>
+      </div>
+      <div class="mega__menuD">
+        <a href="views/balance.html">Balance</a>
+        <a href="">Cards</a>
+        <a href="">Account</a>
+      </div>
+      <div class="header__menu">
+        <img src="../storage/img/menuLinesWhite.svg" alt="" />
+      </div>
     </header>
     <main class="main">
-        <section class="account__information">
-            <article class="information__welcome">
-                <h2>Hi, Arthur!</h2>
-                <p>Here’s your balance.</p>
-            </article>
-            <article class="information__values">
-                <div class="values__savings">
-                    <h3>SAVINGS</h3>
-                    <span><sub>$</sub>15,615</span>
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 70%;"></div>
-                    </div>
+      <section class="account__information">
+        <article class="information__welcome">
+          <h2>Hi, Arthur!</h2>
+          <p>Here’s your balance.</p>
+        </article>
+        <article class="information__values">
+          <div class="values__savings">
+            <h3>SAVINGS</h3>
+            <span><sub>$</sub>15,615</span>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="values__assets">
+            <h3>ASSETS</h3>
+            <span><sub>$</sub>19,615</span>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 30%"></div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="transactions__information">
+        <article class="information__activities">
+          <nav class="activities__nav">
+            <h2>Activities</h2>
+            <ul class="nav__ul">
+              <li>
+                <a href="#">
+                  <img src="storage/img/account.svg" />
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="storage/img/privacy.svg" />
+                  Privacy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="storage/img/help.svg" />
+                  Help
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="storage/img/account.svg" />
+                  Account
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="storage/img/privacy.svg" />
+                  Privacy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="storage/img/help.svg" />
+                  Help
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </article>
+        <article class="information__transactions">
+          <h2>Transactions</h2>
+          <div class="transactions__content">
+            <div class="content__card">
+              <img src="storage/img/arrowGreenUp.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Food & Beverage</h3>
+                  <h3>+28.11</h3>
                 </div>
-                <div class="values__assets">
-                    <h3>ASSETS</h3>
-                    <span><sub>$</sub>19,615</span>
-                    <div class="progress-container">
-                        <div class="progress-bar" style="width: 30%;"></div>
-                    </div>
+                <div class="text__info">
+                  <p>Five Lods</p>
+                  <p>feb 21</p>
                 </div>
-            </article>
-        </section>
-        <section class="transactions__information">
-            <article class="information__activities">
-                <nav class="activities__nav">
-                    <h2>Activities</h2>
-                    <ul class="nav__ul">
-                        <li>
-                            <a href="#">
-                                <img src="storage/img/account.svg">
-                                Account
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="storage/img/privacy.svg">
-                                Privacy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="storage/img/help.svg">
-                                Help
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="storage/img/account.svg">
-                                Account
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="storage/img/privacy.svg">
-                                Privacy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="storage/img/help.svg">
-                                Help
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </article>
-            <article class="information__transactions">
-                <h2>Transactions</h2>
-                <div class="transactions__content">
-                    <div class="content__card">
-                        <img src="storage/img/arrowGreenUp.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Food & Beverage</h3>
-                                <h3>+28.11</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>Five Lods</p>
-                                <p>feb 21</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowBlackDown.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Shopping</h3>
-                                <h3>-157.64</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>H&M 1257 *****</p>
-                                <p>jan 14</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowGreenUp.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Food & Beverage</h3>
-                                <h3>+28.11</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>Five Lods</p>
-                                <p>feb 21</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowBlackDown.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Shopping</h3>
-                                <h3>-157.64</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>H&M 1257 *****</p>
-                                <p>jan 14</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowGreenUp.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Food & Beverage</h3>
-                                <h3>+28.11</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>Five Lods</p>
-                                <p>feb 21</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowBlackDown.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Shopping</h3>
-                                <h3>-157.64</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>H&M 1257 *****</p>
-                                <p>jan 14</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowGreenUp.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Food & Beverage</h3>
-                                <h3>+28.11</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>Five Lods</p>
-                                <p>feb 21</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="content__card">
-                        <img src="storage/img/arrowBlackDown.svg" alt="">
-                        <div class="card__text">
-                            <div class="text__info">
-                                <h3>Shopping</h3>
-                                <h3>-157.64</h3>
-
-                            </div>
-                            <div class="text__info">
-                                <p>H&M 1257 *****</p>
-                                <p>jan 14</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowBlackDown.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Shopping</h3>
+                  <h3>-157.64</h3>
                 </div>
-            </article>
-        </section>
+                <div class="text__info">
+                  <p>H&M 1257 *****</p>
+                  <p>jan 14</p>
+                </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowGreenUp.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Food & Beverage</h3>
+                  <h3>+28.11</h3>
+                </div>
+                <div class="text__info">
+                  <p>Five Lods</p>
+                  <p>feb 21</p>
+                </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowBlackDown.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Shopping</h3>
+                  <h3>-157.64</h3>
+                </div>
+                <div class="text__info">
+                  <p>H&M 1257 *****</p>
+                  <p>jan 14</p>
+                </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowGreenUp.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Food & Beverage</h3>
+                  <h3>+28.11</h3>
+                </div>
+                <div class="text__info">
+                  <p>Five Lods</p>
+                  <p>feb 21</p>
+                </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowBlackDown.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Shopping</h3>
+                  <h3>-157.64</h3>
+                </div>
+                <div class="text__info">
+                  <p>H&M 1257 *****</p>
+                  <p>jan 14</p>
+                </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowGreenUp.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Food & Beverage</h3>
+                  <h3>+28.11</h3>
+                </div>
+                <div class="text__info">
+                  <p>Five Lods</p>
+                  <p>feb 21</p>
+                </div>
+              </div>
+            </div>
+            <div class="content__card">
+              <img src="storage/img/arrowBlackDown.svg" alt="" />
+              <div class="card__text">
+                <div class="text__info">
+                  <h3>Shopping</h3>
+                  <h3>-157.64</h3>
+                </div>
+                <div class="text__info">
+                  <p>H&M 1257 *****</p>
+                  <p>jan 14</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
     <footer class="footer">
-        <ul class="footer__ul">
-            <li>
-                <a href="index.html">
-                    <img src="storage/img/fHome.svg">
-                </a>
-            </li>
-            <li>
-                <a href="views/balance.html">
-                    <img src="storage/img/fContent.svg">
-                </a>
-            </li>
-            <li>
-                <a href="views/cards.html">
-                    <img src="storage/img/fMenu.svg">
-                </a>
-            </li>
-            <li>
-                <a href="index.html">
-                    <img src="storage/img/fMessage.svg">
-                </a>
-            </li>
-            <li>
-                <a href="index.html">
-                    <img src="storage/img/fAccountGreen.svg">
-                </a>
-            </li>
-        </ul>
+      <ul class="footer__ul">
+        <li>
+          <a href="index.html">
+            <img src="storage/img/fHome.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="views/balance.html">
+            <img src="storage/img/fContent.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="views/cards.html">
+            <img src="storage/img/fMenu.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <img src="storage/img/fMessage.svg" />
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <img src="storage/img/fAccountGreen.svg" />
+          </a>
+        </li>
+      </ul>
     </footer>
-</body>
-
+    <footer class="footer__desktop">
+      <div class="footer__container">
+        <div class="footer__column">
+          <h2 class="footer__title">Company</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">About</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Careers</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Brand Center</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__title">Help center</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Discord Server</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Twitter</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Facebook</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__title">Legal</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Licensing</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__column">
+          <h2 class="footer__title">Download</h2>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">iOS</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Android</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Windows</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">MacOS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span class="footer__copyright"
+          >© 2024
+          <a href="https://flowbite.com/" class="footer__link">EDAX</a>.
+          All Rights Reserved.</span
+        >
+        <div class="footer__social-links">
+          <a href="#" class="footer__social-link">Facebook</a>
+          <a href="#" class="footer__social-link">Discord</a>
+          <a href="#" class="footer__social-link">Twitter</a>
+          <a href="#" class="footer__social-link">GitHub</a>
+          <a href="#" class="footer__social-link">Dribbble</a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
