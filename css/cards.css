@@ -200,7 +200,13 @@ main {
     object-fit: contain;
     width: 35px;
 }
-
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .mega__menuD,
+  .footer__desktop {
+    display: none;
+  }
+}
 @media only screen and (min-width: 769px) {
     main{
         padding: 0 0 90px 0;
