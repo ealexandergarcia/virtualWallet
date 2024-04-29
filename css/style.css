@@ -248,12 +248,39 @@ main {
 
 /* mobile */
 @media only screen and (max-width: 768px) {
-    .header__menu #btnb1, .header__menu #btnb2 {
+
+    .header__menu #btnb1,
+    .header__menu #btnb2 {
         display: none;
     }
 }
 
 @media only screen and (min-width: 769px) {
+
+    .account__information,
+    .transactions__information {
+        padding: 0;
+        width: 80%;
+        margin: 30px auto 0 auto;
+    }
+
+    .transactions__information {
+        padding: var(--space-layout-padding-lr);
+    }
+
+    .activities__nav .nav__ul li a {
+        min-width: 170px;
+        min-height: 250px;
+        max-width: 300px;
+        max-height: 350px;
+        width: auto;
+        height: auto;
+    }
+
+    .nav__ul li a img {
+        width: 50%;
+    }
+
     #div1 {
         /* position: absolute;
         left: calc(50% - 300px);
@@ -310,12 +337,13 @@ main {
         border-radius: 100px;
         cursor: pointer;
         transition: .6s;
+        display: none;
     }
 
     #divaa1:hover>#btna1 {
         top: 90px;
         right: 5px;
-        
+
         padding-bottom: 5px;
     }
 
@@ -332,7 +360,7 @@ main {
         border: 2.5px solid transparent;
         border-radius: 100px;
         cursor: pointer;
-        transition: .6s;
+        display: none;
     }
 
     #divaa1:hover>#btna2 {
@@ -341,24 +369,12 @@ main {
         color: black;
         background: dimgrey;
         padding-bottom: 5px;
+
     }
 
-    #btnb1 {
-        position: absolute;
-        top: 0px;
-        background: transparent;
-        width: 75px;
-        color: transparent;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: Georgia, serif;
-        font-size: 15px;
-        border: 2.5px solid transparent;
-        border-radius: 100px;
-        cursor: pointer;
-        transition: .6s;
-    }
-    #btnb1 img, #btnb2 img, #btnb3 img{
+    #btnb1 img,
+    #btnb2 img,
+    #btnb3 img {
         display: none;
     }
 
@@ -367,23 +383,10 @@ main {
         right: 5px;
         padding-bottom: 5px;
     }
-    #divaa2:hover>#btnb1 img, #divaa2:hover>#btnb2 img{
+
+    #divaa2:hover>#btnb1 img,
+    #divaa2:hover>#btnb2 img {
         display: block;
-    }
-    #btnb2 {
-        position: absolute;
-        top: 0px;
-        background: transparent;
-        width: 75px;
-        color: transparent;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: Georgia, serif;
-        font-size: 15px;
-        border: 2.5px solid transparent;
-        border-radius: 100px;
-        cursor: pointer;
-        transition: .6s;
     }
 
     #divaa2:hover>#btnb2 {
@@ -410,8 +413,8 @@ main {
 
     #divaa2:hover>#btna3 {
         top: 190px;
-        
-        
+
+
         padding-bottom: 5px;
     }
 
