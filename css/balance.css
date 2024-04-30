@@ -70,7 +70,7 @@ main {
 .mega__menuD a:hover {
   color: var(--color-2);
 }
-.balance {
+.balance__container {
   position: relative;
   display: flex;
   align-items: center;
@@ -265,7 +265,8 @@ main {
     background: linear-gradient(var(--color-1), var(--color-2));
   }
   main{
-    margin: 0 30px;
+    width: 80%;
+    margin: 30px auto 0 auto;
     padding: 30px 0 0 0;
     margin-top: 40px;
     display: flex;
@@ -273,10 +274,15 @@ main {
     background: white;
     border-radius: 40px;
   }
+  .balance{
+    width: 30%;
+    display: flex;
+  }
   .banner__info{
     width: 100%;
   }
   .graphics{
+    width: 60%;
     padding: 0;
   }
   .graphics__buttons {

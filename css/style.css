@@ -22,12 +22,14 @@ main {
   width: 90%;
   margin: auto;
 }
+
 .mega__menuD {
   display: flex;
   width: 30%;
   justify-content: space-around;
   align-items: center;
 }
+
 .mega__menuD a {
   text-decoration: none;
   font-family: "SF-Pro-Text-Bold", sans-serif;
@@ -39,6 +41,7 @@ main {
 .mega__menuD a:hover {
   color: var(--color-2);
 }
+
 .header {
   /* background: red; */
   display: flex;
@@ -161,6 +164,7 @@ main {
 .information__transactions {
   max-height: 400px;
   overflow: scroll;
+  overflow-x: auto;
 }
 
 .nav__ul {
@@ -169,8 +173,9 @@ main {
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   justify-content: space-between;
+  overflow-x: auto;
 }
 
 .nav__ul li {
@@ -196,6 +201,7 @@ main {
 
 .nav__ul li a img {
   margin-bottom: 10px;
+  width: 50px;
 }
 
 .content__card {
@@ -264,6 +270,7 @@ main {
 
 /* mobile */
 @media only screen and (max-width: 768px) {
+
   .mega__menuD,
   .footer__desktop {
     display: none;
@@ -271,17 +278,24 @@ main {
 }
 
 @media only screen and (min-width: 769px) {
-  main{
+
+  /* .information__transactions::-webkit-scrollbar {
+    -webkit-appearance: none;
+  } */
+
+  main {
     padding: 0;
   }
+
   .footer {
     display: none;
   }
 
-  .footer__desktop{
+  .footer__desktop {
     background: var(--color-1);
     padding: 30px 6% 0 6%;
   }
+
   .footer__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -356,6 +370,7 @@ main {
   .footer__social-link:hover {
     color: var(--color-3);
   }
+
   .account__information,
   .transactions__information {
     padding: 0;
