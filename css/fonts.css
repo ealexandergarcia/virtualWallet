@@ -1,29 +1,29 @@
 @font-face {
     font-family: "SF-Pro-Text-Bold";
-    src: url("../storage/font/SF-Pro/SF-Pro-Text-Bold.otf");
+    src: url("../storage/font/Matter/Matter-Bold.ttf");
 }
 @font-face {
     font-family: "SF-Pro-Text-Heavy";
-    src: url("../storage/font/SF-Pro/SF-Pro-Text-Heavy.otf");
+    src: url("../storage/font/Matter/Matter-Heavy.ttf");
 }
 @font-face {
     font-family: "SF-Pro-Text-Light";
-    src: url("../storage/font/SF-Pro/SF-Pro-Text-Light.otf");
+    src: url("../storage/font/Matter/Matter-Light.ttf");
 }
 
 @font-face {
     font-family: "SF-Pro-Text-Medium";
-    src: url("../storage/font/SF-Pro/SF-Pro-Text-Medium.otf");
+    src: url("../storage/font/Matter/Matter-Medium.ttf");
 }
 
 @font-face {
     font-family: "SF-Pro-Text-Regular";
-    src: url("../storage/font/SF-Pro/SF-Pro-Text-Regular.otf");
+    src: url("../storage/font/Matter/Matter-Regular.ttf");
 }
 
 @font-face {
     font-family: "SF-Pro-Text-Semibold";
-    src: url("../storage/font/SF-Pro/SF-Pro-Text-Semibold.otf");
+    src: url("../storage/font/Matter/Matter-SemiBold.ttf");
 }
 @font-face {
     font-family: "Roboto-Bold";
