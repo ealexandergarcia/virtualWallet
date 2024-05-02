@@ -144,7 +144,7 @@ main {
     text-decoration: none;
     display: flex;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 25px;
     color: var(--color-1);
     box-shadow: 0 0 15px #323f4e26;
     flex-direction: column;

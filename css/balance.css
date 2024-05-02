@@ -208,10 +208,12 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  width: 60%;
 }
 
 .banner__icon img {
-  width: 100%;
+  width: 70%;
 }
 
 .footer {
@@ -272,11 +274,23 @@ main {
     display: flex;
     flex-wrap: wrap;
     background: white;
-    border-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
   }
   .balance{
     width: 30%;
     display: flex;
+  }
+  .banner__content{
+    align-items: center;
+    justify-content: center;
+  }
+  .banner__icon,   .banner__icon img{
+
+    width: 40%;
+  }
+  .banner__icon img{
+    margin: auto;
   }
   .banner__info{
     width: 100%;
