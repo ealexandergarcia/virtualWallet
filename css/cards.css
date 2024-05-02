@@ -48,6 +48,10 @@ main {
   .mega__menuD a:hover {
     color: var(--color-2);
   }
+  .logo{
+    cursor: pointer;
+    text-decoration: none;
+  }
 .header__logo {
     width: 60%;
     display: flex;

@@ -43,6 +43,10 @@ main {
   align-items: center;
   height: 60px;
 }
+.logo{
+  cursor: pointer;
+  text-decoration: none;
+}
 .header__logo {
   display: flex;
   align-items: center;

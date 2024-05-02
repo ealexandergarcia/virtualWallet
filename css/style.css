@@ -22,7 +22,10 @@ main {
   width: 90%;
   margin: auto;
 }
-
+.logo{
+  cursor: pointer;
+  text-decoration: none;
+}
 .mega__menuD {
   display: flex;
   width: 30%;
