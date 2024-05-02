@@ -1,11 +1,9 @@
 # VirtualWallet Campuslands
 
-## Versiones
+## Versions
 
-Se desarrollaron dos versiones del sitio web, la principal es fiel al diseño presente en figma y la segunda version es una propuesta de personalizacion donde se realizaron cambios visules como colores, fuentes y logos, ademas de contar estilos responsive.
-
-- Version princiapl: rama main
-- Version custom: rama version-1
+- Versions main: rama main
+- Versions custom: rama version-1
 
 ## Preview Verson Princiapl
 
